@@ -1,0 +1,53 @@
+
+  .ancho{
+        background-color: #5585b5;
+        padding-bottom: 80px;
+        padding-top: 80px;
+        margin-bottom: 20px;
+        color: rgb(0, 0, 0); 
+        padding-left: 80px;
+      }
+  
+      .card-container {
+        background-color: white;
+        padding: 20px;
+      }
+      .cartas{
+        padding: 40px;
+        background-color: #000000;
+  
+      }
+      div .rowi{
+        background-color: #000000;
+        padding: 10px;
+      }
+  
+      
+       .info {
+        background-color: rgba(189, 149, 0); /* Color de fondo del botón */
+        border-color: #000000; /* Color del borde del botón */
+      }
+  
+      .info:hover {
+        background-color: #000000; /* Color de fondo al pasar el ratón sobre el botón */
+        border-color: #ffffff; /* Color del borde al pasar el ratón sobre el botón */
+        color: rgba(189, 149, 0);
+      }
+      
+      .contenedor{
+        background-color: #22213d;
+      }
+      .card {
+        height: 100%;
+        color: rgb(0, 0, 0);
+    }
+    
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    tbody{
+      color: #ffffff;
+    }
+   

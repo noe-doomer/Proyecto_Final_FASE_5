@@ -1,0 +1,68 @@
+.custom-carousel {
+    background-color: rgba(189, 149, 0); 
+    width: 50%; 
+}
+body{
+    background-color: rgba(8, 36, 90);
+    color: white;
+}
+nav{
+    transition: background-color 0.3s ease, height 0.3s ease; /* Transición suave */
+    height: 115px; 
+}
+
+nav:hover {   
+    height: 120px;
+    border: 3px solid white;
+}
+
+.carousel-item img {
+    width: 75%; 
+    height: 500px;
+    object-fit: cover;
+}
+img{
+    align-items: center;
+}
+
+.nave{
+    background-color: rgba(189, 149, 0);
+    font-weight: bolder;
+    color: black;
+}
+.nave:hover{
+    background-color: rgba(8, 36, 90,.5); 
+    
+}
+.nave:hover ul li {
+    color: white;
+}
+.texti{
+    color:rgb(0, 0, 0);
+}
+.custom-button {
+    background-color: rgb(0, 0, 0); 
+    border-color: rgb(8, 36, 90); 
+    color: rgba(189, 149, 0, 0.8);  ;
+}
+.custom-button:hover {
+    background-color: rgba(189, 149, 0, 0.8); 
+    border-color: rgba(255, 255, 255, 0.8); 
+}
+.footer{
+    border-top: 10px;
+    background-color: rgb(0, 0, 0,0.5);
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease, height 0.3s ease; /* Transición suave */
+    height: 150px; 
+}
+ 
+.footer:hover {
+    
+    background-color: rgba(189, 149, 0, 0.9); 
+    height: 180px;
+    color: black;
+}
+ul li a:hover{
+    color: white;
+}
